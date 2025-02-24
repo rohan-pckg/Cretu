@@ -4,12 +4,12 @@
 
   // Fixed set of image paths (ensure these exist in your public folder)
   const workImages = [
-    "../../public/work5.png",
-    "../../public/work2.png",
-    "../../public/work3.png",
-    "../../public/work4.png",
-    "../../public/work1.png",
-    "../../public/work2.png", // Added as a backup, but we’ll only use 5 for the grid
+    "/work5.png",
+    "/work2.png",
+    "/work3.png",
+    "/work4.png",
+    "/work1.png",
+    "/work2.png", // Added as a backup, but we’ll only use 5 for the grid
   ];
 
   let workSection;

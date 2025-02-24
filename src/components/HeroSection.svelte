@@ -20,7 +20,7 @@
 
 	<div class="hero-bottom">
 		<div>
-			<img class="banner" src="../public/hero-image.png">
+			<img class="banner" src="/hero-image.png">
 		</div>
 
 		<div class="content-section">
@@ -31,7 +31,7 @@
 			</div>
 			<div class="link">
         <Link to="/contact">Lets talk</Link>
-        <img class="arrow-icon" src="../public/right_arrow.svg">
+        <img class="arrow-icon" src="/right_arrow.svg">
 			</div>
 		</div>
 	</div>

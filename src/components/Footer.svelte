@@ -3,7 +3,7 @@
 </script>
 
 <div class="container">
-	<img src="../public/cretu_logo.svg">
+	<img src="/cretu_logo.svg">
 </div>
 
 

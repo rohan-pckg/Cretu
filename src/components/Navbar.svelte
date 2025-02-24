@@ -8,7 +8,7 @@
 <nav class="container">
     <div class="nav-left">
     	<Link to="/">
-    		<img src="../public/cretu_logo.svg">
+    		<img src="/cretu_logo.svg">
     	</Link>
     </div>
     <div class="nav-right">
@@ -28,6 +28,10 @@ a {
   color: var(--white);
   text-decoration: none;
   padding: 0;
+}
+
+a:hover{
+	color : var(--red);
 }
 
 	nav{
