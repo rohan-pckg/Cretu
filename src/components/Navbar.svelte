@@ -15,7 +15,7 @@
     	<Link to="/about">About</Link>
         <div class="contact-link">
         <Link to="/contact">Contact</Link>
-        <img class="arrow-icon" src="../public/right_arrow.svg">
+        <img class="arrow-icon" src="/right_arrow.svg">
         </div>
     </div>
 </nav>
@@ -28,10 +28,6 @@ a {
   color: var(--white);
   text-decoration: none;
   padding: 0;
-}
-
-a:hover{
-	color : var(--red);
 }
 
 	nav{

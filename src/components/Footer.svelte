@@ -9,7 +9,7 @@
 
 <style lang="scss">
 	img{
-		width : 80dvw;
+		width : 70dvw;
 		opacity: 60%;
 	}
 </style>
