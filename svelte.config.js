@@ -1,7 +1,14 @@
-import { vitePreprocess } from '@sveltejs/vite-plugin-svelte'
+import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
+import preprocess from "svelte-preprocess";
+import Icons from 'unplugin-icons/vite'
 
 export default {
-  // Consult https://svelte.dev/docs#compile-time-svelte-preprocess
-  // for more information about preprocessors
-  preprocess: vitePreprocess(),
-}
+  preprocess: [
+    vitePreprocess(), // Keep Vite's default preprocessing
+    preprocess({
+      scss: {
+        // Optional: Add SCSS-specific options here if needed
+      },
+    }),
+  ],
+};
