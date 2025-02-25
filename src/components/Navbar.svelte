@@ -35,4 +35,12 @@
             align-self: center;
         }
     }
+
+    @media (max-width: 800px) {
+        nav {
+            .nav-right {
+                grid-gap: 5px;
+            }
+        }
+    }
 </style>

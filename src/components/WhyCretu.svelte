@@ -151,7 +151,6 @@
 
             .card {
                 border-radius: 16px; // Smaller radius on mobile
-                width: 70dvw;
 
                 h3 {
                     font-size: 16px;

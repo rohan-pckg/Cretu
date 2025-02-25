@@ -93,6 +93,17 @@
             transform: translateY(0) scale(0.98);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
+        &.is-visible h2 {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        &.default-visible h2 {
+            opacity: 1;
+            transform: translateY(0);
+            transition: none; /* No animation if default visible */
+        }
     }
 
     @media (max-width: 1000px) {
